@@ -33,7 +33,7 @@ RUN dpkg -i libatlas3-base_*.deb
 
 
 #install cvxopt
-RUN cd opt/ && git init && git clone  https://github.com/slm-1056101/cvxopt.git 
+RUN cd opt/ && git init && git clone  https://github.com/yclin1054634/cvxopt.git 
 RUN cd opt/cvxopt/ && python setup.py install 
 
 
